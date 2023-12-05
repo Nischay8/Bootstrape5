@@ -1,0 +1,17 @@
+.container{
+    border: 10px solid green;
+}
+
+.box1{
+    min-height: 250px;
+    background-color: red;
+}
+.box2 {
+    min-height: 250px;
+    background-color: yellow;
+}
+.box3 {
+    min-height: 250px;
+    background-color: yellowgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
