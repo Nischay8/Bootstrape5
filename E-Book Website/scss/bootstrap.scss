@@ -50,4 +50,7 @@ $spacers: (
     7: $spacer * 8,
     8: $spacer * 12) !default;
 
+
+$line-height-base: 1.7;
+
 @import '../node_modules/bootstrap/scss/bootstrap';
