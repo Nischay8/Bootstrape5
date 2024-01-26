@@ -30,4 +30,10 @@
   .header .social i {
     font-size: 30px;
   }
+  .about-content {
+    flex-direction: column;
+  }
+}
+.about-img {
+  width: 200px;
 }

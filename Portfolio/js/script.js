@@ -1,17 +1,20 @@
-function runTypingEffect() {
-  const text = 'I am Nischay Sinha';
-  const typingElement = document.getElementById('typing-text');
-  const typingDelay = 100;
+// Add Custom Javascript Function
 
-  typeText(text, typingElement, typingDelay);
+function runTypingEffect(){
+const Text='I am Nischay Sinha';
+const typingElement=document.getElementById('typing-text');
+const typingDelay=100;
+
+typeText(Text,typingElement,typingDelay);
 }
 
-function typeText(text, typingElement, delay){
-  for (let i = 0; i < text.length; i++) {
-    setTimeout(() => {
-      typingElement.textContent += text.charAt(i);
-    }, delay * i);
+
+function typeText(text,typingElement,typingDelay){
+  for(let i=0;i<text.length;i++){
+    setTimeout(()=>{
+      typingElement.textContent+=text.charAt(i);
+    },typingDelay*i);
   }
 }
 
-document.addEventListener('DOMContentLoaded', runTypingEffect);
+document.addEventListener('DOMContentLoaded',runTypingEffect);
